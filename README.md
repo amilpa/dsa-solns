@@ -1,5 +1,5 @@
-
 # Leetcode solutions
-My own Leetcode problem solutions
+
+DSA Problem solutions
 <br>
-language: java
+language: java,python

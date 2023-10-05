@@ -1,4 +1,4 @@
-# Leetcode solutions
+# DSA solutions
 
 DSA Problem solutions
 <br>

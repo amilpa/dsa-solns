@@ -2,4 +2,4 @@
 
 DSA Problem solutions
 <br>
-language: java,python
+language: java,python,javascript

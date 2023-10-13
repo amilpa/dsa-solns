@@ -2,4 +2,10 @@
 
 DSA Problem solutions
 <br>
-language: java,python,javascript
+
+## Languages
+
+- Java
+- Python
+- C++
+- Javascript

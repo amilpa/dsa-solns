@@ -1,7 +1,8 @@
 #include<iostream>
 #include<vector>
+#include<string>
 
-void generateArray(int x,vector<string>& myArray)
+void generateArray(int x,std::vector<std::string>& myArray)
 {
   if(x<=0)
   {
@@ -11,9 +12,9 @@ void generateArray(int x,vector<string>& myArray)
   generateArray(x-1,myArray);
 }
 
-vector<string> printNTimes(int n) {
+std::vector<std::string> printNTimes(int n) {
 	// Write your code here.
-  std::vector<string> myArray;
+  std::vector<std::string> myArray;
   generateArray(n,myArray);
   return myArray;
 }

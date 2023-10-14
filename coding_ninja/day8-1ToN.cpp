@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 
-void createArray(int x,vector<int>& myArray){
+void createArray(int x,std::vector<int>& myArray){
   if(x<=0)
   {
     return;
@@ -10,7 +10,7 @@ void createArray(int x,vector<int>& myArray){
   myArray.push_back(x);
 };
 
-vector<int> printNos(int x) {
+std::vector<int> printNos(int x) {
     // Write Your Code Here
     std::vector<int> myArray;
     createArray(x,myArray);

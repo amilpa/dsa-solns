@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 
-void recurse(int len,int n,vector<int> &nums){
+void recurse(int len,int n,std::vector<int> &nums){
     if(n<len/2){
       return;
     }
@@ -9,7 +9,7 @@ void recurse(int len,int n,vector<int> &nums){
     recurse(len, n-1 ,nums);
 }
 
-vector<int> reverseArray(int n, vector<int> &nums)
+std::vector<int> reverseArray(int n, std::vector<int> &nums)
 {
     // Write your code here.
     recurse(nums.size(),n-1,nums);

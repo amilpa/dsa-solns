@@ -1,20 +1,18 @@
-#include<iostream>
-#include<vector>
-#include<string>
+#include <iostream>
+#include <string>
+#include <vector>
 
-void generateArray(int x,std::vector<std::string>& myArray)
-{
-  if(x<=0)
-  {
+void generateArray(int x, std::vector<std::string> &myArray) {
+  if (x <= 0) {
     return;
   }
   myArray.push_back("Coding Ninjas");
-  generateArray(x-1,myArray);
+  generateArray(x - 1, myArray);
 }
 
 std::vector<std::string> printNTimes(int n) {
-	// Write your code here.
+  // Write your code here.
   std::vector<std::string> myArray;
-  generateArray(n,myArray);
+  generateArray(n, myArray);
   return myArray;
 }

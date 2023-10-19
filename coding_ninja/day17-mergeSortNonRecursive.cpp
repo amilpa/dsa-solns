@@ -48,7 +48,7 @@ void mergeSort(int arr[], int l, int r) {
     left = 0;
     while (left < r + 1 - current_size) {
       middle = left + current_size - 1;
-      right = min(left + current_size * 2 - 1, r + 1);
+      right = min(left + current_size * 2 - 1, r);
 
       merge(arr, left, middle, right);
       left = left + 2 * current_size;
